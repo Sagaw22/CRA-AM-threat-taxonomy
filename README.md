@@ -47,7 +47,9 @@ The script checks node counts, identifiers, the strength vocabulary, the family 
 
 ## How to cite
 
-Please cite the archived release on Zenodo, not the repository URL. The citation details are in [`CITATION.cff`](CITATION.cff), and GitHub shows them under *Cite this repository*.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24158297.svg)](https://doi.org/10.5281/zenodo.24158297)
+
+Please cite the archived release: https://doi.org/10.5281/zenodo.24158297. The citation details are in [`CITATION.cff`](CITATION.cff), and GitHub shows them under *Cite this repository*.
 
 ## Licence
 
