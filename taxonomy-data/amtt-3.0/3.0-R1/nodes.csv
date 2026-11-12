@@ -1,0 +1,73 @@
+node_id,display_code,label,axis,level,parent_id,cia,coverage_status
+AMTT-G-001,1.1,Intellectual property compromise / technical data theft,goal,leaf,,C,approved_path
+AMTT-G-002,1.2,Unauthorised production / counterfeit / restricted-part production,goal,leaf,,I,approved_path
+AMTT-G-003,1.3,Data breach and data manipulation,goal,leaf,,C|I,approved_path
+AMTT-G-004,1.4,Sabotage / integrity degradation,goal,leaf,,I|A,approved_path
+AMTT-G-005,1.5,Availability disruption / denial of service,goal,leaf,,A,approved_path
+AMTT-TF-001,2.1,Design and specification assets,target,family,,C|I,family
+AMTT-T-001,2.1.1,Part specification,target,leaf,AMTT-TF-001,C|I,approved_path
+AMTT-T-002,2.1.2,CAD model integrity,target,leaf,AMTT-TF-001,C|I,approved_path
+AMTT-T-003,2.1.3,STL / AMF / 3MF / intermediate model integrity,target,leaf,AMTT-TF-001,C|I,approved_path
+AMTT-T-004,2.1.4,Tool-path / slicing output / machine-instruction integrity,target,leaf,AMTT-TF-001,C|I,approved_path
+AMTT-TF-002,2.2,Process knowledge and production recipe assets,target,family,,C|I|A,family
+AMTT-T-005,2.2.1,Manufacturing process specification,target,leaf,AMTT-TF-002,C|I,approved_path
+AMTT-T-006,2.2.2,Manufacturing process execution,target,leaf,AMTT-TF-002,I|A,candidate_only
+AMTT-T-007,2.2.3,Post-processing specification,target,leaf,AMTT-TF-002,C|I,approved_path
+AMTT-T-008,2.2.4,Post-processing execution,target,leaf,AMTT-TF-002,I|A,candidate_only
+AMTT-T-009,2.2.5,Sensor information and quality-control data,target,leaf,AMTT-TF-002,C|I|A,no_path
+AMTT-T-010,2.2.6,Indirect manufacturing dependencies,target,leaf,AMTT-TF-002,C|I|A,approved_path
+AMTT-TF-003,2.3,Supply-chain assets and dependencies,target,family,,C|I|A,family
+AMTT-T-011,2.3.1,Feedstock / source materials,target,leaf,AMTT-TF-003,I|A,no_path
+AMTT-T-012,2.3.2,Replacement parts and upgrades,target,leaf,AMTT-TF-003,I|A,no_path
+AMTT-T-013,2.3.3,AM equipment delivered through the supply chain,target,leaf,AMTT-TF-003,C|I|A,no_path
+AMTT-T-014,2.3.4,"Third-party software, firmware, and service dependencies",target,leaf,AMTT-TF-003,C|I|A,no_path
+AMTT-T-015,2.3.5,Logistics and distribution chain,target,leaf,AMTT-TF-003,C|I|A,no_path
+AMTT-T-016,2.3.6,Manufactured objects in transit or return flows,target,leaf,AMTT-TF-003,I|A,no_path
+AMTT-TF-004,2.4,Physical production system assets,target,family,,C|I|A,family
+AMTT-T-017,2.4.1,Final manufactured part,target,leaf,AMTT-TF-004,C|I,approved_path
+AMTT-T-018,2.4.2,AM equipment,target,leaf,AMTT-TF-004,C|I|A,approved_path
+AMTT-T-019,2.4.3,AM production environment,target,leaf,AMTT-TF-004,I|A,approved_path
+AMTT-T-020,2.4.4,Downstream environment affected through AM equipment or a deployed part,target,leaf,AMTT-TF-004,I|A,approved_path
+AMTT-TF-005,2.5,"Rights, governance, and restricted-object targets",target,family,,C|I,family
+AMTT-T-021,2.5.1,Intellectual property rights and legally protected knowledge,target,leaf,AMTT-TF-005,C,approved_path
+AMTT-T-022,2.5.2,Unauthorised overproduction,target,leaf,AMTT-TF-005,I|A,approved_path
+AMTT-T-023,2.5.3,Export-controlled parts,target,leaf,AMTT-TF-005,C|I,approved_path
+AMTT-T-024,2.5.4,Internally restricted parts,target,leaf,AMTT-TF-005,C|I,approved_path
+AMTT-MF-001,3.1,Acquisition and exfiltration methods,method,family,,C|I,family
+AMTT-M-001,3.1.1,Theft / intellectual property theft,method,leaf,AMTT-MF-001,C,approved_path
+AMTT-M-002,3.1.2,Reverse engineering,method,leaf,AMTT-MF-001,C|I,approved_path
+AMTT-MF-002,3.2,Protection-circumvention and unauthorised reproduction methods,method,family,,C|I,family
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,method,leaf,AMTT-MF-002,C|I,approved_path
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,method,leaf,AMTT-MF-002,I,approved_path
+AMTT-MF-003,3.3,Design and specification tampering methods,method,family,,I,family
+AMTT-M-005,3.3.1,Part specification tampering,method,leaf,AMTT-MF-003,I,approved_path
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,method,leaf,AMTT-MF-003,I,no_path
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,method,leaf,AMTT-MF-003,I,no_path
+AMTT-MF-004,3.4,Process tampering methods,method,family,,I|A,family
+AMTT-M-008,3.4.1,Compromising AM process parameters,method,leaf,AMTT-MF-004,I|A,approved_path
+AMTT-M-009,3.4.2,Process-control manipulation,method,leaf,AMTT-MF-004,I|A,no_path
+AMTT-M-010,3.4.3,Sensor-information falsification,method,leaf,AMTT-MF-004,I,no_path
+AMTT-M-011,3.4.4,Timing disruption,method,leaf,AMTT-MF-004,I|A,no_path
+AMTT-M-012,3.4.5,Power manipulation / power surge,method,leaf,AMTT-MF-004,I|A,no_path
+AMTT-MF-005,3.5,Post-processing tampering methods,method,family,,I,family
+AMTT-M-013,3.5.1,Post-processing procedure tampering,method,leaf,AMTT-MF-005,I,approved_path
+AMTT-M-014,3.5.2,Heat-treatment manipulation,method,leaf,AMTT-MF-005,I,no_path
+AMTT-M-015,3.5.3,Finish-machining manipulation,method,leaf,AMTT-MF-005,I,no_path
+AMTT-MF-006,3.6,Supply-chain compromise methods,method,family,,C|I|A,family
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,method,leaf,AMTT-MF-006,C|I|A,approved_path
+AMTT-M-017,3.6.2,Feedstock compromise,method,leaf,AMTT-MF-006,I|A,no_path
+AMTT-M-018,3.6.3,Replacement-parts compromise,method,leaf,AMTT-MF-006,I|A,no_path
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,method,leaf,AMTT-MF-006,C|I|A,no_path
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,method,leaf,AMTT-MF-006,I|A,no_path
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,method,leaf,AMTT-MF-006,C|I|A,approved_path
+AMTT-MF-007,3.7,Equipment-compromise methods,method,family,,C|I|A,family
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,method,leaf,AMTT-MF-007,C|I|A,approved_path
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,method,leaf,AMTT-MF-007,I|A,approved_path
+AMTT-M-024,3.7.3,Manipulating 3D equipment,method,leaf,AMTT-MF-007,C|I|A,approved_path
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,method,leaf,AMTT-MF-007,C|I|A,approved_path
+AMTT-MF-008,3.8,Part-compromise methods,method,family,,I|A,family
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,method,leaf,AMTT-MF-008,I,approved_path
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,method,leaf,AMTT-MF-008,I|A,approved_path
+AMTT-MF-009,3.9,Context-exploitation and destabilisation methods,method,family,,I|A,family
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,method,leaf,AMTT-MF-009,I|A,approved_path
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,method,leaf,AMTT-MF-009,I|A,no_path

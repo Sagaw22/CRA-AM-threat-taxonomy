@@ -1,0 +1,19 @@
+This release makes use of MITRE ATT&CK(R).
+
+The ATT&CK mitigation names, identifiers and short descriptions used in this
+release are taken from MITRE ATT&CK (Enterprise and ICS mitigations, v19).
+They are not covered by the licence in LICENSE.
+
+"(C) 2026 The MITRE Corporation. This work is reproduced and distributed with
+the permission of The MITRE Corporation."
+
+ATT&CK Terms of Use, licence clause (https://attack.mitre.org/resources/legal-and-branding/terms-of-use/):
+
+  The MITRE Corporation (MITRE) hereby grants you a non-exclusive,
+  royalty-free license to use ATT&CK(R) for research, development, and
+  commercial purposes. Any copy you make for such purposes is authorized
+  provided that you reproduce MITRE's copyright designation and this license
+  in any such copy.
+
+ATT&CK(R) and MITRE ATT&CK(R) are registered trademarks of The MITRE Corporation.
+This release is not affiliated with or endorsed by The MITRE Corporation.

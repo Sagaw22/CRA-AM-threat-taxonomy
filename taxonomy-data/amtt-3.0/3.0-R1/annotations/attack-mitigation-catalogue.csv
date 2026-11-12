@@ -1,0 +1,53 @@
+mitigation,enterprise_id,ics_id,summary,method_leaves_using
+Access Management,,M0801,"Enforces access decisions, often through gateways or authentication services, before users can reach systems or devices.",24
+Account Use Policies,M1036,M0936,"Configures account-use rules such as lockouts, login times, and inactivity timeouts to reduce unauthorised access.",2
+Antivirus/Antimalware,M1049,M0949,"Uses signatures, heuristics, or behaviour analysis to detect, block, and remediate malicious software.",4
+Application Developer Guidance,M1013,M0913,"Provides secure-development guidance to reduce weaknesses in applications, systems, and APIs.",5
+Application Isolation and Sandboxing,M1048,M0948,"Runs code in a controlled, isolated environment to limit access to sensitive resources and reduce impact.",5
+Audit,M1047,M0947,"Records and reviews activity, permissions, configurations, and integrity indicators to identify weaknesses or anomalies.",28
+Authorization Enforcement,,M0800,"Restricts read, manipulation, or execution privileges to authenticated users who require access under approved policies.",24
+Behavior Prevention on Endpoint,M1040,,"Detects and blocks suspicious endpoint behaviour based on process, file, API, or other activity patterns.",1
+Boot Integrity,M1046,M0946,"Verifies the boot process, operating system, and loading mechanisms to prevent tampered components from starting trusted systems.",10
+Code Signing,M1045,M0945,"Verifies digital signatures so only trusted, untampered code is allowed to execute.",17
+Communication Authenticity,,M0802,Authenticates message senders and verifies message integrity to detect spoofed messages or unauthorised connections.,15
+Credential Access Protection,M1043,,"Protects credentials by hardening credential storage, limiting access, and detecting suspicious credential-related activity.",1
+Data Backup,M1053,M0953,Creates and protects backups of critical data and configurations so systems can recover after compromise or disruption.,15
+Data Loss Prevention,M1057,M0803,"Identifies, monitors, and controls sensitive-data movement to reduce unauthorised access, transmission, or exfiltration.",8
+Encrypt Network Traffic,,M0808,Uses strong cryptographic protocols to reduce eavesdropping on network communications.,3
+Encrypt Sensitive Information,M1041,M0941,Uses strong encryption to protect sensitive information against unauthorised access or tampering.,3
+Execution Prevention,M1038,M0938,"Blocks unauthorised or malicious code execution through application control, script blocking, or related controls.",8
+Exploit Protection,M1050,M0950,"Detects, blocks, or mitigates conditions that indicate or enable software exploitation.",3
+Filter Network Traffic,M1037,M0937,"Filters ingress, egress, or lateral traffic, including protocol-aware rules, to restrict malicious or unnecessary communication.",16
+Human User Authentication,,M0804,Requires users to authenticate before accessing data or sending commands to a device or system.,9
+Limit Access to Resource Over Network,M1035,M0935,"Restricts network access to resources such as file shares, remote systems, and services to legitimate users or systems.",10
+Limit Hardware Installation,M1034,M0934,"Blocks users or groups from installing or using unapproved hardware, including removable devices.",8
+Limit Software Installation,M1033,,Prevents installation of unauthorised or unapproved software to reduce malicious or vulnerable applications.,3
+Mechanical Protection Layers,,M0805,"Uses physical or mechanical protection layers, such as interlocks or safety devices, to prevent damage or harm.",19
+Minimize Wireless Signal Propagation,,M0806,"Detects, understands, and reduces unnecessary RF propagation to limit wireless monitoring or unauthorised access opportunities.",1
+Mitigation Limited or Not Effective,,M0816,Marks techniques where preventive controls may be limited because the attack abuses legitimate system features.,8
+Multi-factor Authentication,M1032,M0932,Requires two or more forms of identity evidence before granting access to a system.,13
+Network Allowlists,,M0807,"Allows only approved device connections based on defined addresses, ports, protocols, or related network properties.",13
+Network Intrusion Prevention,M1031,M0931,"Uses intrusion-detection signatures to block traffic at network boundaries, with care not to disrupt control or safety functions.",3
+Network Segmentation,M1030,M0930,"Divides networks into isolated segments or zones to restrict access, reduce lateral movement, and protect critical systems.",24
+Operating System Configuration,M1028,M0928,Hardens operating-system settings to reduce attack surface and opportunities for adversary abuse.,3
+Operational Information Confidentiality,,M0809,"Protects operational-process, facility, configuration, program, or database information that could reveal sensitive know-how or IP.",9
+Out-of-Band Communications Channel,M1060,M0810,"Provides alternative communication paths when primary network communication fails, is disrupted, or cannot be trusted.",7
+Privileged Account Management,M1026,M0926,"Controls creation, use, permissions, and accountability for administrative, root, SYSTEM, or other privileged accounts.",7
+Privileged Process Integrity,M1025,,"Protects highly privileged processes from tampering, injection, or compromise.",1
+Redundancy of Service,,M0811,Provides backup or standby devices and services so critical functions can continue during failures or disruption.,10
+Remote Data Storage,M1029,,"Moves critical logs or sensitive files to secure off-host storage to reduce tampering, destruction, or unauthorised access.",9
+Restrict File and Directory Permissions,M1022,M0922,"Limits file and directory access so only authorised users, groups, or processes can read, write, or execute them.",4
+Restrict Library Loading,M1044,M0944,Ensures only trusted libraries are loaded into processes to prevent abuse of library-loading mechanisms.,1
+Restrict Registry Permissions,M1024,M0924,"Limits who can modify sensitive Windows registry keys or hives to reduce persistence, privilege escalation, or evasion.",1
+Safety Instrumented Systems,,M0812,Uses independent safety systems to detect hazardous conditions and automatically drive equipment to a safer state.,18
+Software Configuration,M1054,M0954,Applies security-focused software setting changes to reduce risky behaviour and attack surface.,16
+Software Process and Device Authentication,,M0813,"Requires devices and software processes to authenticate, especially for remote connections and API access.",18
+Static Network Configuration,,M0814,Uses static network settings where possible to reduce abuse of dynamic discovery or addressing protocols.,6
+Supply Chain Management,,M0817,"Uses supplier policies, procedures, and integrity testing to ensure devices and components come from trusted sources.",11
+Threat Intelligence Program,M1019,M0919,"Collects and analyses threat intelligence to track trends, guide defensive priorities, and reduce risk.",6
+Update Software,M1051,M0951,Applies vendor patches and upgrades to reduce exploitation of known software or firmware vulnerabilities.,12
+User Account Management,M1018,M0918,"Manages account creation, modification, use, and permissions to reduce unauthorised access and privilege misuse.",3
+User Training,M1017,M0917,"Trains users to recognise and respond to phishing, social engineering, and other user-interaction threats.",6
+Validate Program Inputs,,M0818,"Checks input and action values against expected format, content, and operational ranges before accepting them.",11
+Vulnerability Scanning,M1016,M0916,"Assesses systems, applications, and networks for vulnerabilities, misconfigurations, or unpatched software to prioritise remediation.",7
+Watchdog Timers,,M0815,Uses timers to quickly detect when a device or system becomes unresponsive.,10

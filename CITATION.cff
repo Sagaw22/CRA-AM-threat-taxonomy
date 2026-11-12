@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this taxonomy, please cite the archived release."
+title: "Additive Manufacturing Merged Threat Taxonomy (AMTT) with CIA, Cyber Resilience Act and MITRE ATT&CK annotations"
+type: dataset
+version: "3.0-R1"
+date-released: "2026-11-12"
+license: CC-BY-4.0
+repository-code: "https://github.com/Daniea1/CRA-AM-threat-taxonomy"
+authors:
+  - family-names: Gawad
+    given-names: Sami
+    affiliation: University of Southern Denmark
+    email: sagaw22@student.sdu.dk
+    orcid: "https://orcid.org/0009-0004-4060-2521"
+  - family-names: Nguyen
+    given-names: Kenny Loc Vinh
+    affiliation: University of Southern Denmark
+    orcid: "https://orcid.org/0009-0004-3222-8664"
+  - family-names: Lybech
+    given-names: Stian
+    affiliation: University of Southern Denmark
+    orcid: "https://orcid.org/0000-0001-8219-2285"
+  - family-names: Kang
+    given-names: Eun-Young
+    affiliation: University of Southern Denmark
+    orcid: "https://orcid.org/0000-0002-4589-2378"
+keywords:
+  - additive manufacturing
+  - threat taxonomy
+  - Cyber Resilience Act
+  - MITRE ATT&CK
+  - risk assessment
+abstract: "A goal, target and method taxonomy of attacks on the additive manufacturing digital thread, merged from Yampolskiy et al. (2018) and Kumar et al. (2025), with each node annotated with the security property affected, the Cyber Resilience Act requirement engaged and, for attack methods, MITRE ATT&CK mitigations."

@@ -1,0 +1,480 @@
+method_id,display_code,method_label,role,mitigation,enterprise_id,ics_id
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Data Loss Prevention,M1057,M0803
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Encrypt Sensitive Information,M1041,M0941
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Encrypt Network Traffic,,M0808
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Operational Information Confidentiality,,M0809
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Access Management,,M0801
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Authorization Enforcement,,M0800
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Human User Authentication,,M0804
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Privileged Account Management,M1026,M0926
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,User Account Management,M1018,M0918
+AMTT-M-001,3.1.1,Theft / intellectual property theft,primary,Account Use Policies,M1036,M0936
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Network Segmentation,M1030,M0930
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Audit,M1047,M0947
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Remote Data Storage,M1029,
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,User Training,M1017,M0917
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Threat Intelligence Program,M1019,M0919
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Vulnerability Scanning,M1016,M0916
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Update Software,M1051,M0951
+AMTT-M-001,3.1.1,Theft / intellectual property theft,supporting,Exploit Protection,M1050,M0950
+AMTT-M-002,3.1.2,Reverse engineering,primary,Operational Information Confidentiality,,M0809
+AMTT-M-002,3.1.2,Reverse engineering,primary,Encrypt Sensitive Information,M1041,M0941
+AMTT-M-002,3.1.2,Reverse engineering,primary,Encrypt Network Traffic,,M0808
+AMTT-M-002,3.1.2,Reverse engineering,primary,Data Loss Prevention,M1057,M0803
+AMTT-M-002,3.1.2,Reverse engineering,primary,Network Segmentation,M1030,M0930
+AMTT-M-002,3.1.2,Reverse engineering,primary,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-002,3.1.2,Reverse engineering,primary,Filter Network Traffic,M1037,M0937
+AMTT-M-002,3.1.2,Reverse engineering,primary,Minimize Wireless Signal Propagation,,M0806
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Access Management,,M0801
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Authorization Enforcement,,M0800
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Human User Authentication,,M0804
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Multi-factor Authentication,M1032,M0932
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Software Process and Device Authentication,,M0813
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Audit,M1047,M0947
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Application Developer Guidance,M1013,M0913
+AMTT-M-002,3.1.2,Reverse engineering,supporting,Limit Hardware Installation,M1034,M0934
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Code Signing,M1045,M0945
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Boot Integrity,M1046,M0946
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Execution Prevention,M1038,M0938
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Application Isolation and Sandboxing,M1048,M0948
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Privileged Process Integrity,M1025,
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Software Process and Device Authentication,,M0813
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Communication Authenticity,,M0802
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Authorization Enforcement,,M0800
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,primary,Access Management,,M0801
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Restrict File and Directory Permissions,M1022,M0922
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Privileged Account Management,M1026,M0926
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Credential Access Protection,M1043,
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Multi-factor Authentication,M1032,M0932
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Software Configuration,M1054,M0954
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Operating System Configuration,M1028,M0928
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Update Software,M1051,M0951
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Vulnerability Scanning,M1016,M0916
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-003,3.2.1,Bypassing digital and physical protection / protection removal,supporting,Limit Hardware Installation,M1034,M0934
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Supply Chain Management,,M0817
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Operational Information Confidentiality,,M0809
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Data Loss Prevention,M1057,M0803
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Encrypt Sensitive Information,M1041,M0941
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Code Signing,M1045,M0945
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Communication Authenticity,,M0802
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Software Process and Device Authentication,,M0813
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Authorization Enforcement,,M0800
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Access Management,,M0801
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,Privileged Account Management,M1026,M0926
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,User Account Management,M1018,M0918
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,Audit,M1047,M0947
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,Remote Data Storage,M1029,
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,Network Segmentation,M1030,M0930
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-004,3.2.2,Counterfeiting / unlicensed reproduction,supporting,Software Configuration,M1054,M0954
+AMTT-M-005,3.3.1,Part specification tampering,primary,Authorization Enforcement,,M0800
+AMTT-M-005,3.3.1,Part specification tampering,primary,Access Management,,M0801
+AMTT-M-005,3.3.1,Part specification tampering,primary,Human User Authentication,,M0804
+AMTT-M-005,3.3.1,Part specification tampering,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-005,3.3.1,Part specification tampering,primary,Privileged Account Management,M1026,M0926
+AMTT-M-005,3.3.1,Part specification tampering,primary,Code Signing,M1045,M0945
+AMTT-M-005,3.3.1,Part specification tampering,primary,Communication Authenticity,,M0802
+AMTT-M-005,3.3.1,Part specification tampering,primary,Software Process and Device Authentication,,M0813
+AMTT-M-005,3.3.1,Part specification tampering,primary,Restrict File and Directory Permissions,M1022,M0922
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Audit,M1047,M0947
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Remote Data Storage,M1029,
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Data Backup,M1053,M0953
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Application Developer Guidance,M1013,M0913
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Validate Program Inputs,,M0818
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Software Configuration,M1054,M0954
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Network Segmentation,M1030,M0930
+AMTT-M-005,3.3.1,Part specification tampering,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Code Signing,M1045,M0945
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Communication Authenticity,,M0802
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Software Process and Device Authentication,,M0813
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Restrict File and Directory Permissions,M1022,M0922
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Authorization Enforcement,,M0800
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Access Management,,M0801
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Application Developer Guidance,M1013,M0913
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Validate Program Inputs,,M0818
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Application Isolation and Sandboxing,M1048,M0948
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Execution Prevention,M1038,M0938
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Antivirus/Antimalware,M1049,M0949
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Exploit Protection,M1050,M0950
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Audit,M1047,M0947
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Data Backup,M1053,M0953
+AMTT-M-006,3.3.2,CAD/STL/intermediate-representation tampering,supporting,Remote Data Storage,M1029,
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Code Signing,M1045,M0945
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Communication Authenticity,,M0802
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Software Process and Device Authentication,,M0813
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Validate Program Inputs,,M0818
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Authorization Enforcement,,M0800
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Access Management,,M0801
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Filter Network Traffic,M1037,M0937
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,primary,Network Allowlists,,M0807
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Network Segmentation,M1030,M0930
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Static Network Configuration,,M0814
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Software Configuration,M1054,M0954
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Execution Prevention,M1038,M0938
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Application Isolation and Sandboxing,M1048,M0948
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Audit,M1047,M0947
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Data Backup,M1053,M0953
+AMTT-M-007,3.3.3,Tool-path and execution-file tampering,supporting,Remote Data Storage,M1029,
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Validate Program Inputs,,M0818
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Authorization Enforcement,,M0800
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Access Management,,M0801
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Human User Authentication,,M0804
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Communication Authenticity,,M0802
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Software Process and Device Authentication,,M0813
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Network Allowlists,,M0807
+AMTT-M-008,3.4.1,Compromising AM process parameters,primary,Filter Network Traffic,M1037,M0937
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Network Segmentation,M1030,M0930
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Static Network Configuration,,M0814
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Software Configuration,M1054,M0954
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Audit,M1047,M0947
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Watchdog Timers,,M0815
+AMTT-M-008,3.4.1,Compromising AM process parameters,supporting,Redundancy of Service,,M0811
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Authorization Enforcement,,M0800
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Access Management,,M0801
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Human User Authentication,,M0804
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Privileged Account Management,M1026,M0926
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Communication Authenticity,,M0802
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Software Process and Device Authentication,,M0813
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Validate Program Inputs,,M0818
+AMTT-M-009,3.4.2,Process-control manipulation,primary,Network Allowlists,,M0807
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Network Segmentation,M1030,M0930
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Static Network Configuration,,M0814
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Network Intrusion Prevention,M1031,M0931
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Code Signing,M1045,M0945
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Boot Integrity,M1046,M0946
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Execution Prevention,M1038,M0938
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Audit,M1047,M0947
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-009,3.4.2,Process-control manipulation,supporting,Watchdog Timers,,M0815
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Communication Authenticity,,M0802
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Software Process and Device Authentication,,M0813
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Validate Program Inputs,,M0818
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Network Allowlists,,M0807
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Filter Network Traffic,M1037,M0937
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Network Segmentation,M1030,M0930
+AMTT-M-010,3.4.3,Sensor-information falsification,primary,Static Network Configuration,,M0814
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Encrypt Network Traffic,,M0808
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Audit,M1047,M0947
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Watchdog Timers,,M0815
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Redundancy of Service,,M0811
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Software Configuration,M1054,M0954
+AMTT-M-010,3.4.3,Sensor-information falsification,supporting,Update Software,M1051,M0951
+AMTT-M-011,3.4.4,Timing disruption,primary,Static Network Configuration,,M0814
+AMTT-M-011,3.4.4,Timing disruption,primary,Network Allowlists,,M0807
+AMTT-M-011,3.4.4,Timing disruption,primary,Filter Network Traffic,M1037,M0937
+AMTT-M-011,3.4.4,Timing disruption,primary,Network Segmentation,M1030,M0930
+AMTT-M-011,3.4.4,Timing disruption,primary,Communication Authenticity,,M0802
+AMTT-M-011,3.4.4,Timing disruption,primary,Software Process and Device Authentication,,M0813
+AMTT-M-011,3.4.4,Timing disruption,primary,Watchdog Timers,,M0815
+AMTT-M-011,3.4.4,Timing disruption,supporting,Redundancy of Service,,M0811
+AMTT-M-011,3.4.4,Timing disruption,supporting,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-011,3.4.4,Timing disruption,supporting,Network Intrusion Prevention,M1031,M0931
+AMTT-M-011,3.4.4,Timing disruption,supporting,Audit,M1047,M0947
+AMTT-M-011,3.4.4,Timing disruption,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-011,3.4.4,Timing disruption,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-011,3.4.4,Timing disruption,supporting,Mitigation Limited or Not Effective,,M0816
+AMTT-M-012,3.4.5,Power manipulation / power surge,primary,Mechanical Protection Layers,,M0805
+AMTT-M-012,3.4.5,Power manipulation / power surge,primary,Safety Instrumented Systems,,M0812
+AMTT-M-012,3.4.5,Power manipulation / power surge,primary,Redundancy of Service,,M0811
+AMTT-M-012,3.4.5,Power manipulation / power surge,primary,Watchdog Timers,,M0815
+AMTT-M-012,3.4.5,Power manipulation / power surge,primary,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-012,3.4.5,Power manipulation / power surge,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Network Segmentation,M1030,M0930
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Network Allowlists,,M0807
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Communication Authenticity,,M0802
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Software Process and Device Authentication,,M0813
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Data Backup,M1053,M0953
+AMTT-M-012,3.4.5,Power manipulation / power surge,supporting,Audit,M1047,M0947
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Authorization Enforcement,,M0800
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Access Management,,M0801
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Human User Authentication,,M0804
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Validate Program Inputs,,M0818
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Code Signing,M1045,M0945
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Communication Authenticity,,M0802
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Software Process and Device Authentication,,M0813
+AMTT-M-013,3.5.1,Post-processing procedure tampering,primary,Audit,M1047,M0947
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Network Segmentation,M1030,M0930
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Network Allowlists,,M0807
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Software Configuration,M1054,M0954
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Data Backup,M1053,M0953
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Remote Data Storage,M1029,
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-013,3.5.1,Post-processing procedure tampering,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Validate Program Inputs,,M0818
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Authorization Enforcement,,M0800
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Access Management,,M0801
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Human User Authentication,,M0804
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Communication Authenticity,,M0802
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Software Process and Device Authentication,,M0813
+AMTT-M-014,3.5.2,Heat-treatment manipulation,primary,Audit,M1047,M0947
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Software Configuration,M1054,M0954
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Network Segmentation,M1030,M0930
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Network Allowlists,,M0807
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Watchdog Timers,,M0815
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Redundancy of Service,,M0811
+AMTT-M-014,3.5.2,Heat-treatment manipulation,supporting,Data Backup,M1053,M0953
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Validate Program Inputs,,M0818
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Authorization Enforcement,,M0800
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Access Management,,M0801
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Code Signing,M1045,M0945
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Communication Authenticity,,M0802
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Software Process and Device Authentication,,M0813
+AMTT-M-015,3.5.3,Finish-machining manipulation,primary,Audit,M1047,M0947
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Network Segmentation,M1030,M0930
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Network Allowlists,,M0807
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Software Configuration,M1054,M0954
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Execution Prevention,M1038,M0938
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-015,3.5.3,Finish-machining manipulation,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Supply Chain Management,,M0817
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Code Signing,M1045,M0945
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Boot Integrity,M1046,M0946
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Update Software,M1051,M0951
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Vulnerability Scanning,M1016,M0916
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Application Developer Guidance,M1013,M0913
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,primary,Threat Intelligence Program,M1019,M0919
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Limit Software Installation,M1033,
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Limit Hardware Installation,M1034,M0934
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Execution Prevention,M1038,M0938
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Antivirus/Antimalware,M1049,M0949
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Data Loss Prevention,M1057,M0803
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Operational Information Confidentiality,,M0809
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Audit,M1047,M0947
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,Network Segmentation,M1030,M0930
+AMTT-M-016,3.6.1,Exploitation of supply-chain weaknesses,supporting,User Training,M1017,M0917
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Supply Chain Management,,M0817
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Mechanical Protection Layers,,M0805
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Authorization Enforcement,,M0800
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Access Management,,M0801
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Audit,M1047,M0947
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Limit Hardware Installation,M1034,M0934
+AMTT-M-017,3.6.2,Feedstock compromise,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-017,3.6.2,Feedstock compromise,supporting,Operational Information Confidentiality,,M0809
+AMTT-M-017,3.6.2,Feedstock compromise,supporting,Data Loss Prevention,M1057,M0803
+AMTT-M-017,3.6.2,Feedstock compromise,supporting,Network Segmentation,M1030,M0930
+AMTT-M-017,3.6.2,Feedstock compromise,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-017,3.6.2,Feedstock compromise,supporting,Software Configuration,M1054,M0954
+AMTT-M-017,3.6.2,Feedstock compromise,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Supply Chain Management,,M0817
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Code Signing,M1045,M0945
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Boot Integrity,M1046,M0946
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Update Software,M1051,M0951
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Vulnerability Scanning,M1016,M0916
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Limit Hardware Installation,M1034,M0934
+AMTT-M-018,3.6.3,Replacement-parts compromise,primary,Limit Software Installation,M1033,
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Application Developer Guidance,M1013,M0913
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Audit,M1047,M0947
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Access Management,,M0801
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Authorization Enforcement,,M0800
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-018,3.6.3,Replacement-parts compromise,supporting,Software Configuration,M1054,M0954
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Supply Chain Management,,M0817
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Boot Integrity,M1046,M0946
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Code Signing,M1045,M0945
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Update Software,M1051,M0951
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Vulnerability Scanning,M1016,M0916
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Audit,M1047,M0947
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,primary,Limit Hardware Installation,M1034,M0934
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Limit Software Installation,M1033,
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Access Management,,M0801
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Authorization Enforcement,,M0800
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Operational Information Confidentiality,,M0809
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Software Configuration,M1054,M0954
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Operating System Configuration,M1028,M0928
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-019,3.6.4,AM equipment compromise before deployment,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,primary,Supply Chain Management,,M0817
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,primary,Audit,M1047,M0947
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,primary,Access Management,,M0801
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,primary,Authorization Enforcement,,M0800
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,primary,Mechanical Protection Layers,,M0805
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Operational Information Confidentiality,,M0809
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Data Loss Prevention,M1057,M0803
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Code Signing,M1045,M0945
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Boot Integrity,M1046,M0946
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Update Software,M1051,M0951
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Network Segmentation,M1030,M0930
+AMTT-M-020,3.6.5,Manufactured-object compromise in logistics,supporting,Data Backup,M1053,M0953
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,primary,Supply Chain Management,,M0817
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,primary,Redundancy of Service,,M0811
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,primary,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,primary,Data Backup,M1053,M0953
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,primary,Network Segmentation,M1030,M0930
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,primary,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Network Intrusion Prevention,M1031,M0931
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Access Management,,M0801
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Authorization Enforcement,,M0800
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Audit,M1047,M0947
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Threat Intelligence Program,M1019,M0919
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,User Training,M1017,M0917
+AMTT-M-021,3.6.6,Disrupting supply-chain logistics,supporting,Update Software,M1051,M0951
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Network Segmentation,M1030,M0930
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Filter Network Traffic,M1037,M0937
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Network Allowlists,,M0807
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Access Management,,M0801
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Authorization Enforcement,,M0800
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Human User Authentication,,M0804
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Privileged Account Management,M1026,M0926
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,User Account Management,M1018,M0918
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,primary,Account Use Policies,M1036,M0936
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Antivirus/Antimalware,M1049,M0949
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Behavior Prevention on Endpoint,M1040,
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Execution Prevention,M1038,M0938
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Application Isolation and Sandboxing,M1048,M0948
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Code Signing,M1045,M0945
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Boot Integrity,M1046,M0946
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Exploit Protection,M1050,M0950
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Update Software,M1051,M0951
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Vulnerability Scanning,M1016,M0916
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Operating System Configuration,M1028,M0928
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Software Configuration,M1054,M0954
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Restrict File and Directory Permissions,M1022,M0922
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Restrict Library Loading,M1044,M0944
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Restrict Registry Permissions,M1024,M0924
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Audit,M1047,M0947
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Data Backup,M1053,M0953
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Remote Data Storage,M1029,
+AMTT-M-022,3.7.1,Cyber intrusion on AM equipment,supporting,Threat Intelligence Program,M1019,M0919
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Mechanical Protection Layers,,M0805
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Safety Instrumented Systems,,M0812
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Access Management,,M0801
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Authorization Enforcement,,M0800
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Limit Hardware Installation,M1034,M0934
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Audit,M1047,M0947
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,Watchdog Timers,,M0815
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,Redundancy of Service,,M0811
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,User Training,M1017,M0917
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,Data Backup,M1053,M0953
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,Network Segmentation,M1030,M0930
+AMTT-M-023,3.7.2,Physical sabotage on AM equipment,supporting,Software Configuration,M1054,M0954
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Authorization Enforcement,,M0800
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Access Management,,M0801
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Human User Authentication,,M0804
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Multi-factor Authentication,M1032,M0932
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Privileged Account Management,M1026,M0926
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Validate Program Inputs,,M0818
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Communication Authenticity,,M0802
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Software Process and Device Authentication,,M0813
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Code Signing,M1045,M0945
+AMTT-M-024,3.7.3,Manipulating 3D equipment,primary,Boot Integrity,M1046,M0946
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Network Segmentation,M1030,M0930
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Network Allowlists,,M0807
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Static Network Configuration,,M0814
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Software Configuration,M1054,M0954
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Audit,M1047,M0947
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Watchdog Timers,,M0815
+AMTT-M-024,3.7.3,Manipulating 3D equipment,supporting,Redundancy of Service,,M0811
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Boot Integrity,M1046,M0946
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Code Signing,M1045,M0945
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Update Software,M1051,M0951
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Vulnerability Scanning,M1016,M0916
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Execution Prevention,M1038,M0938
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Antivirus/Antimalware,M1049,M0949
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Application Isolation and Sandboxing,M1048,M0948
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Access Management,,M0801
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Authorization Enforcement,,M0800
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,primary,Network Segmentation,M1030,M0930
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Network Allowlists,,M0807
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Software Process and Device Authentication,,M0813
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Audit,M1047,M0947
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Remote Data Storage,M1029,
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Data Backup,M1053,M0953
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Watchdog Timers,,M0815
+AMTT-M-025,3.7.4,Compromised AM equipment as a method-enabler,supporting,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Validate Program Inputs,,M0818
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Authorization Enforcement,,M0800
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Access Management,,M0801
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Code Signing,M1045,M0945
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Communication Authenticity,,M0802
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Software Process and Device Authentication,,M0813
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Audit,M1047,M0947
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,primary,Supply Chain Management,,M0817
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Network Segmentation,M1030,M0930
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Network Allowlists,,M0807
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Software Configuration,M1054,M0954
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Data Backup,M1053,M0953
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Remote Data Storage,M1029,
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Mechanical Protection Layers,,M0805
+AMTT-M-026,3.8.1,Compromising 3D-printed parts,supporting,Safety Instrumented Systems,,M0812
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Supply Chain Management,,M0817
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Mechanical Protection Layers,,M0805
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Authorization Enforcement,,M0800
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Access Management,,M0801
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Limit Hardware Installation,M1034,M0934
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Audit,M1047,M0947
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Safety Instrumented Systems,,M0812
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Code Signing,M1045,M0945
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Boot Integrity,M1046,M0946
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Update Software,M1051,M0951
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Software Process and Device Authentication,,M0813
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Operational Information Confidentiality,,M0809
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Data Loss Prevention,M1057,M0803
+AMTT-M-027,3.8.2,Contamination and embedded-component insertion,supporting,Data Backup,M1053,M0953
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,primary,Supply Chain Management,,M0817
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,primary,Threat Intelligence Program,M1019,M0919
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,primary,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,primary,Redundancy of Service,,M0811
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,primary,User Training,M1017,M0917
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,supporting,Audit,M1047,M0947
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,supporting,Data Backup,M1053,M0953
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,supporting,Operational Information Confidentiality,,M0809
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,supporting,Data Loss Prevention,M1057,M0803
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,supporting,Network Segmentation,M1030,M0930
+AMTT-M-028,3.9.1,Exploitation of economic and market instability,supporting,Limit Access to Resource Over Network,M1035,M0935
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Redundancy of Service,,M0811
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Data Backup,M1053,M0953
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Out-of-Band Communications Channel,M1060,M0810
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Supply Chain Management,,M0817
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Watchdog Timers,,M0815
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Mechanical Protection Layers,,M0805
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Safety Instrumented Systems,,M0812
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,primary,Mitigation Limited or Not Effective,,M0816
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Threat Intelligence Program,M1019,M0919
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Audit,M1047,M0947
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Network Segmentation,M1030,M0930
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Filter Network Traffic,M1037,M0937
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Access Management,,M0801
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Authorization Enforcement,,M0800
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,User Training,M1017,M0917
+AMTT-M-029,3.9.2,Exploitation of natural or man-made disruption windows,supporting,Update Software,M1051,M0951

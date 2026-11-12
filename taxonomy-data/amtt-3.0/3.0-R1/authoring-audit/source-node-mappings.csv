@@ -1,0 +1,55 @@
+mapping_id,source,axis,context,source_node,canonical_ids,canonical_codes,mapping_type,rationale
+AMTT-SM-001,Y,goal,theft,Theft of Technical Data,AMTT-G-001,1.1,exact,Threat category of the theft sub-taxonomy.
+AMTT-SM-002,Y,goal,sabotage,AM Sabotage,AMTT-G-004,1.4,exact,Threat category of the sabotage sub-taxonomy.
+AMTT-SM-003,Y,target,theft,Object Specification,AMTT-T-001,2.1.1,exact,Figure 6 label of Part Specification (Y §4.1.1).
+AMTT-SM-004,Y,target,theft,Manufacturing Process,AMTT-T-005,2.2.1,exact,Figure 6 label of Manufacturing Process Specification (Y §4.1.2).
+AMTT-SM-005,Y,target,theft,Post-Processing,AMTT-T-007,2.2.3,exact,Figure 6 label of Post-Processing Specification (Y §4.1.3).
+AMTT-SM-006,Y,target,theft,Manufacturing Methodology,AMTT-T-010,2.2.6,narrower,Figure 6 label of Indirect Manufacturing (Y §4.1.4): tooling and moulds only. The canonical node is broader.
+AMTT-SM-007,Y,method,theft,Theft,AMTT-M-001,3.1.1,exact,Y §4.2.1.
+AMTT-SM-008,Y,method,theft,Reverse Engineering,AMTT-M-002,3.1.2,narrower,Y §4.2.2. The canonical node also holds AM equipment analysis.
+AMTT-SM-009,Y,method,theft,AM Equipment Analysis: Cyber,AMTT-M-002,3.1.2,narrower,"Y §4.2.3, folded into 3.1.2 as a submethod."
+AMTT-SM-010,Y,method,theft,AM Equipment Analysis: Physical,AMTT-M-002,3.1.2,narrower,"Y §4.2.3, folded into 3.1.2 as a submethod."
+AMTT-SM-011,Y,method,theft,Protection Removal,AMTT-M-003,3.2.1,exact,Y §4.2.4.
+AMTT-SM-012,Y,target,sabotage,Manufactured Object,AMTT-T-017,2.4.1,exact,Figure 8 label of Manufactured Part (Y §5.1.1).
+AMTT-SM-013,Y,target,sabotage,AM Equipment,AMTT-T-018,2.4.2,exact,Y §5.1.2.
+AMTT-SM-014,Y,target,sabotage,Environment: AM Equipment,AMTT-T-020,2.4.4,narrower,Y §5.1.3: environment affected through AM equipment.
+AMTT-SM-015,Y,target,sabotage,Environment: Manufactured Part,AMTT-T-020,2.4.4,narrower,Y §5.1.3: environment affected through the manufactured part.
+AMTT-SM-016,Y,method,sabotage,3D Object Specification,AMTT-M-005,3.3.1,exact,Figure 8 label of 3D Part Specification (Y §5.2.1). Not propagated to the splits 3.3.2 and 3.3.3.
+AMTT-SM-017,Y,method,sabotage,Supply Chain Attack,AMTT-M-016,3.6.1,exact,"Y §5.2.2. Not propagated to 3.6.2 to 3.6.5, which are branches of the same source node."
+AMTT-SM-018,Y,method,sabotage,Manufacturing Process,AMTT-M-008,3.4.1,exact,Figure 8 label of AM Manufacturing Process (Y §5.2.3). Not propagated to the splits 3.4.2 and 3.4.3.
+AMTT-SM-019,Y,method,sabotage,Post-Processing,AMTT-M-013,3.5.1,exact,Y §5.2.4. Not propagated to 3.5.2 and 3.5.3.
+AMTT-SM-020,Y,method,sabotage,Compromised Equipment,AMTT-M-025,3.7.4,exact,Y §5.2.5.
+AMTT-SM-021,Y,method,sabotage,Compromised 3D Object,AMTT-M-027,3.8.2,exact,Figure 8 label of Compromised Part (Y §5.2.6).
+AMTT-SM-022,K,goal,,Intellectual Property Compromise,AMTT-G-001,1.1,exact,K §4.1.1.
+AMTT-SM-023,K,goal,,Unauthorised Part Production,AMTT-G-002,1.2,exact,K §4.1.2.
+AMTT-SM-024,K,goal,,Data Breach and Manipulation,AMTT-G-003,1.3,exact,K §4.1.3.
+AMTT-SM-025,K,goal,,Sabotage,AMTT-G-004,1.4,exact,K §4.1.4.
+AMTT-SM-026,K,goal,,Denial of Service,AMTT-G-005,1.5,exact,K §4.1.5.
+AMTT-SM-027,K,target,,3D Design and Part Specifications,AMTT-T-001,2.1.1,exact,K §4.2.1.
+AMTT-SM-028,K,target,,AM Process,AMTT-T-005|AMTT-T-006,2.2.1|2.2.2,split,K §4.2.2 Manufacturing process spans the process specification and its execution.
+AMTT-SM-029,K,target,,Post Processing Stage,AMTT-T-007|AMTT-T-008,2.2.3|2.2.4,split,K §4.2.3 Post-processing stage spans the specification and its execution.
+AMTT-SM-030,K,target,,Indirect Manufacturing dependencies,AMTT-T-010,2.2.6,narrower,"K §4.2.4: suppliers, logistics and infrastructure. The canonical node also holds AM-made tooling and moulds."
+AMTT-SM-031,K,target,,Intellectual Property Right,AMTT-T-021,2.5.1,exact,K §4.2.5.
+AMTT-SM-032,K,target,,Unauthorised Overproduction,AMTT-T-022,2.5.2,exact,K §4.2.6.
+AMTT-SM-033,K,target,,Export-Controlled Parts,AMTT-T-023,2.5.3,exact,K §4.2.7.
+AMTT-SM-034,K,target,,Internally Restricted parts,AMTT-T-024,2.5.4,exact,K §4.2.8.
+AMTT-SM-035,K,target,,CAD Model Integrity,AMTT-T-002,2.1.2,exact,K §4.2.9.
+AMTT-SM-036,K,target,,STL file Integrity,AMTT-T-003,2.1.3,exact,K §4.2.10 STL phase integrity.
+AMTT-SM-037,K,target,,Tool-Path Execution,AMTT-T-004,2.1.4,exact,K §4.2.11.
+AMTT-SM-038,K,target,,Final Manufactured Part,AMTT-T-017,2.4.1,exact,K §4.2.12.
+AMTT-SM-039,K,target,,AM Equipment,AMTT-T-018,2.4.2,exact,K §4.2.13.
+AMTT-SM-040,K,target,,AM Production Environment,AMTT-T-019,2.4.3,exact,K §4.2.14.
+AMTT-SM-041,K,method,,Reverse Engineering of AM Design,AMTT-M-002,3.1.2,exact,K §4.3.1.
+AMTT-SM-042,K,method,,Cyber Intrusion on AM Equipment,AMTT-M-022,3.7.1,exact,K §4.3.2.
+AMTT-SM-043,K,method,,Physical Sabotage on AM Equipment,AMTT-M-023,3.7.2,exact,K §4.3.3.
+AMTT-SM-044,K,method,,Bypassing Digital and Physical Protection,AMTT-M-003,3.2.1,exact,K §4.3.4.
+AMTT-SM-045,K,method,,Intellectual Property Theft,AMTT-M-001,3.1.1,exact,K §4.3.5.
+AMTT-SM-046,K,method,,Counterfeiting Part Protection,AMTT-M-004,3.2.2,exact,K §4.3.6.
+AMTT-SM-047,K,method,,Exploitation of Supply Chain Weakness,AMTT-M-016,3.6.1,exact,K §4.3.7.
+AMTT-SM-048,K,method,,Tempering with Part Specification,AMTT-M-005,3.3.1,exact,K §4.3.8.
+AMTT-SM-049,K,method,,Disrupting AM Supply Chain Logistics,AMTT-M-021,3.6.6,exact,K §4.3.9.
+AMTT-SM-050,K,method,,Corrupting AM Process Parameters,AMTT-M-008,3.4.1,exact,K §4.3.10.
+AMTT-SM-051,K,method,,Tempering with Post-processing Proc.,AMTT-M-013,3.5.1,exact,K §4.3.11.
+AMTT-SM-052,K,method,,Manipulating 3D Equipment,AMTT-M-024,3.7.3,exact,K §4.3.12.
+AMTT-SM-053,K,method,,Compromising 3D-Printed Parts,AMTT-M-026,3.8.1,exact,K §4.3.13.
+AMTT-SM-054,K,method,,Exploitation Economic & Market Instability,AMTT-M-028,3.9.1,exact,K §4.3.14.

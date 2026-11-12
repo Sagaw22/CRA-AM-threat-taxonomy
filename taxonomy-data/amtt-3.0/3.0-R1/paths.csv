@@ -1,0 +1,63 @@
+path_id,goal_id,target_id,method_id,goal_code,target_code,method_code,path_status,sources,feasibility,support_note
+AMTT-P-001,AMTT-G-001,AMTT-T-001,AMTT-M-001,1.1,2.1.1,3.1.1,approved,Y|K,achievable,
+AMTT-P-002,AMTT-G-001,AMTT-T-001,AMTT-M-002,1.1,2.1.1,3.1.2,approved,Y|K,partly_conditionally_achievable,"method limited to ""Reverse Engineering"" of Y"
+AMTT-P-003,AMTT-G-001,AMTT-T-001,AMTT-M-003,1.1,2.1.1,3.2.1,approved,Y,achievable,
+AMTT-P-004,AMTT-G-001,AMTT-T-001,AMTT-M-022,1.1,2.1.1,3.7.1,approved,K,not_stated,
+AMTT-P-005,AMTT-G-001,AMTT-T-005,AMTT-M-001,1.1,2.2.1,3.1.1,approved,Y,achievable,
+AMTT-P-006,AMTT-G-001,AMTT-T-005,AMTT-M-002,1.1,2.2.1,3.1.2,approved,Y,achievable,"method limited to ""Reverse Engineering"" of Y. method limited to ""AM Equipment Analysis: Cyber"" of Y. method limited to ""AM Equipment Analysis: Physical"" of Y"
+AMTT-P-007,AMTT-G-001,AMTT-T-005,AMTT-M-003,1.1,2.2.1,3.2.1,approved,Y,partly_conditionally_achievable,
+AMTT-P-008,AMTT-G-001,AMTT-T-005,AMTT-M-005,1.1,2.2.1,3.3.1,candidate,K,not_stated,"K target ""AM Process"" is split between 2.2.1 and 2.2.2; the source does not say which part the relationship concerns"
+AMTT-P-009,AMTT-G-001,AMTT-T-005,AMTT-M-022,1.1,2.2.1,3.7.1,candidate,K,not_stated,"K target ""AM Process"" is split between 2.2.1 and 2.2.2; the source does not say which part the relationship concerns"
+AMTT-P-010,AMTT-G-001,AMTT-T-006,AMTT-M-005,1.1,2.2.2,3.3.1,candidate,K,not_stated,"K target ""AM Process"" is split between 2.2.1 and 2.2.2; the source does not say which part the relationship concerns"
+AMTT-P-011,AMTT-G-001,AMTT-T-006,AMTT-M-022,1.1,2.2.2,3.7.1,candidate,K,not_stated,"K target ""AM Process"" is split between 2.2.1 and 2.2.2; the source does not say which part the relationship concerns"
+AMTT-P-012,AMTT-G-001,AMTT-T-007,AMTT-M-001,1.1,2.2.3,3.1.1,approved,Y,achievable,
+AMTT-P-013,AMTT-G-001,AMTT-T-007,AMTT-M-002,1.1,2.2.3,3.1.2,approved,Y,achievable,"method limited to ""Reverse Engineering"" of Y. method limited to ""AM Equipment Analysis: Cyber"" of Y. method limited to ""AM Equipment Analysis: Physical"" of Y"
+AMTT-P-014,AMTT-G-001,AMTT-T-007,AMTT-M-003,1.1,2.2.3,3.2.1,approved,Y,partly_conditionally_achievable,
+AMTT-P-015,AMTT-G-001,AMTT-T-007,AMTT-M-008,1.1,2.2.3,3.4.1,candidate,K,not_stated,"K target ""Post Processing Stage"" is split between 2.2.3 and 2.2.4; the source does not say which part the relationship concerns"
+AMTT-P-016,AMTT-G-001,AMTT-T-007,AMTT-M-013,1.1,2.2.3,3.5.1,candidate,K,not_stated,"K target ""Post Processing Stage"" is split between 2.2.3 and 2.2.4; the source does not say which part the relationship concerns"
+AMTT-P-017,AMTT-G-001,AMTT-T-007,AMTT-M-023,1.1,2.2.3,3.7.2,candidate,K,not_stated,"K target ""Post Processing Stage"" is split between 2.2.3 and 2.2.4; the source does not say which part the relationship concerns"
+AMTT-P-018,AMTT-G-001,AMTT-T-008,AMTT-M-008,1.1,2.2.4,3.4.1,candidate,K,not_stated,"K target ""Post Processing Stage"" is split between 2.2.3 and 2.2.4; the source does not say which part the relationship concerns"
+AMTT-P-019,AMTT-G-001,AMTT-T-008,AMTT-M-013,1.1,2.2.4,3.5.1,candidate,K,not_stated,"K target ""Post Processing Stage"" is split between 2.2.3 and 2.2.4; the source does not say which part the relationship concerns"
+AMTT-P-020,AMTT-G-001,AMTT-T-008,AMTT-M-023,1.1,2.2.4,3.7.2,candidate,K,not_stated,"K target ""Post Processing Stage"" is split between 2.2.3 and 2.2.4; the source does not say which part the relationship concerns"
+AMTT-P-021,AMTT-G-001,AMTT-T-010,AMTT-M-001,1.1,2.2.6,3.1.1,approved,Y,achievable,"target limited to ""Manufacturing Methodology"" of Y"
+AMTT-P-022,AMTT-G-001,AMTT-T-010,AMTT-M-002,1.1,2.2.6,3.1.2,approved,Y,partly_conditionally_achievable,"target limited to ""Manufacturing Methodology"" of Y; method limited to ""Reverse Engineering"" of Y. target limited to ""Manufacturing Methodology"" of Y; method limited to ""AM Equipment Analysis: Cyber"" of Y"
+AMTT-P-023,AMTT-G-001,AMTT-T-010,AMTT-M-024,1.1,2.2.6,3.7.3,approved,K,not_stated,"target limited to ""Indirect Manufacturing dependencies"" of K"
+AMTT-P-024,AMTT-G-002,AMTT-T-021,AMTT-M-001,1.2,2.5.1,3.1.1,approved,K,not_stated,
+AMTT-P-025,AMTT-G-002,AMTT-T-021,AMTT-M-004,1.2,2.5.1,3.2.2,approved,K,not_stated,
+AMTT-P-026,AMTT-G-002,AMTT-T-022,AMTT-M-004,1.2,2.5.2,3.2.2,approved,K,not_stated,
+AMTT-P-027,AMTT-G-002,AMTT-T-022,AMTT-M-016,1.2,2.5.2,3.6.1,approved,K,not_stated,
+AMTT-P-028,AMTT-G-002,AMTT-T-023,AMTT-M-004,1.2,2.5.3,3.2.2,approved,K,not_stated,
+AMTT-P-029,AMTT-G-002,AMTT-T-023,AMTT-M-021,1.2,2.5.3,3.6.6,approved,K,not_stated,
+AMTT-P-030,AMTT-G-002,AMTT-T-024,AMTT-M-004,1.2,2.5.4,3.2.2,approved,K,not_stated,
+AMTT-P-031,AMTT-G-002,AMTT-T-024,AMTT-M-021,1.2,2.5.4,3.6.6,approved,K,not_stated,
+AMTT-P-032,AMTT-G-003,AMTT-T-002,AMTT-M-002,1.3,2.1.2,3.1.2,approved,K,not_stated,
+AMTT-P-033,AMTT-G-003,AMTT-T-002,AMTT-M-016,1.3,2.1.2,3.6.1,approved,K,not_stated,
+AMTT-P-034,AMTT-G-003,AMTT-T-002,AMTT-M-022,1.3,2.1.2,3.7.1,approved,K,not_stated,
+AMTT-P-035,AMTT-G-003,AMTT-T-003,AMTT-M-002,1.3,2.1.3,3.1.2,approved,K,not_stated,
+AMTT-P-036,AMTT-G-003,AMTT-T-003,AMTT-M-016,1.3,2.1.3,3.6.1,approved,K,not_stated,
+AMTT-P-037,AMTT-G-003,AMTT-T-003,AMTT-M-022,1.3,2.1.3,3.7.1,approved,K,not_stated,
+AMTT-P-038,AMTT-G-003,AMTT-T-004,AMTT-M-005,1.3,2.1.4,3.3.1,approved,K,not_stated,
+AMTT-P-039,AMTT-G-003,AMTT-T-004,AMTT-M-022,1.3,2.1.4,3.7.1,approved,K,not_stated,
+AMTT-P-040,AMTT-G-003,AMTT-T-004,AMTT-M-026,1.3,2.1.4,3.8.1,approved,K,not_stated,
+AMTT-P-041,AMTT-G-004,AMTT-T-017,AMTT-M-004,1.4,2.4.1,3.2.2,approved,K,not_stated,
+AMTT-P-042,AMTT-G-004,AMTT-T-017,AMTT-M-005,1.4,2.4.1,3.3.1,approved,Y,achievable,
+AMTT-P-043,AMTT-G-004,AMTT-T-017,AMTT-M-008,1.4,2.4.1,3.4.1,approved,Y,achievable,
+AMTT-P-044,AMTT-G-004,AMTT-T-017,AMTT-M-013,1.4,2.4.1,3.5.1,approved,Y,achievable,
+AMTT-P-045,AMTT-G-004,AMTT-T-017,AMTT-M-016,1.4,2.4.1,3.6.1,approved,Y,achievable,
+AMTT-P-046,AMTT-G-004,AMTT-T-017,AMTT-M-025,1.4,2.4.1,3.7.4,approved,Y,achievable,
+AMTT-P-047,AMTT-G-004,AMTT-T-017,AMTT-M-026,1.4,2.4.1,3.8.1,approved,K,not_stated,
+AMTT-P-048,AMTT-G-004,AMTT-T-018,AMTT-M-003,1.4,2.4.2,3.2.1,approved,K,not_stated,
+AMTT-P-049,AMTT-G-004,AMTT-T-018,AMTT-M-008,1.4,2.4.2,3.4.1,approved,Y,partly_conditionally_achievable,
+AMTT-P-050,AMTT-G-004,AMTT-T-018,AMTT-M-013,1.4,2.4.2,3.5.1,approved,Y,partly_conditionally_achievable,
+AMTT-P-051,AMTT-G-004,AMTT-T-018,AMTT-M-016,1.4,2.4.2,3.6.1,approved,Y,partly_conditionally_achievable,
+AMTT-P-052,AMTT-G-004,AMTT-T-018,AMTT-M-022,1.4,2.4.2,3.7.1,approved,K,not_stated,
+AMTT-P-053,AMTT-G-004,AMTT-T-018,AMTT-M-023,1.4,2.4.2,3.7.2,approved,K,not_stated,
+AMTT-P-054,AMTT-G-004,AMTT-T-018,AMTT-M-025,1.4,2.4.2,3.7.4,approved,Y,achievable,
+AMTT-P-055,AMTT-G-004,AMTT-T-020,AMTT-M-005,1.4,2.4.4,3.3.1,approved,Y,achievable,"target limited to ""Environment: Manufactured Part"" of Y"
+AMTT-P-056,AMTT-G-004,AMTT-T-020,AMTT-M-008,1.4,2.4.4,3.4.1,approved,Y,partly_conditionally_achievable,"target limited to ""Environment: AM Equipment"" of Y"
+AMTT-P-057,AMTT-G-004,AMTT-T-020,AMTT-M-013,1.4,2.4.4,3.5.1,approved,Y,partly_conditionally_achievable,"target limited to ""Environment: AM Equipment"" of Y"
+AMTT-P-058,AMTT-G-004,AMTT-T-020,AMTT-M-016,1.4,2.4.4,3.6.1,approved,Y,partly_conditionally_achievable,"target limited to ""Environment: AM Equipment"" of Y. target limited to ""Environment: Manufactured Part"" of Y"
+AMTT-P-059,AMTT-G-004,AMTT-T-020,AMTT-M-025,1.4,2.4.4,3.7.4,approved,Y,achievable,"target limited to ""Environment: AM Equipment"" of Y"
+AMTT-P-060,AMTT-G-004,AMTT-T-020,AMTT-M-027,1.4,2.4.4,3.8.2,approved,Y,achievable,"target limited to ""Environment: Manufactured Part"" of Y"
+AMTT-P-061,AMTT-G-005,AMTT-T-019,AMTT-M-023,1.5,2.4.3,3.7.2,approved,K,not_stated,
+AMTT-P-062,AMTT-G-005,AMTT-T-019,AMTT-M-028,1.5,2.4.3,3.9.1,approved,K,not_stated,

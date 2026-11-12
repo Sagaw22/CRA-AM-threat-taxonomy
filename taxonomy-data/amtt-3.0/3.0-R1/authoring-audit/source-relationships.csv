@@ -1,0 +1,80 @@
+relationship_id,source,figure,relation_type,context,from_source_node,to_source_node,feasibility,directness
+AMTT-SR-001,Y,Figure 6,target_method,theft,Object Specification,Theft,achievable,not_stated
+AMTT-SR-002,Y,Figure 6,target_method,theft,Object Specification,Reverse Engineering,partly_conditionally_achievable,not_stated
+AMTT-SR-003,Y,Figure 6,target_method,theft,Object Specification,Protection Removal,achievable,not_stated
+AMTT-SR-004,Y,Figure 6,target_method,theft,Manufacturing Process,Theft,achievable,not_stated
+AMTT-SR-005,Y,Figure 6,target_method,theft,Manufacturing Process,Reverse Engineering,partly_conditionally_achievable,not_stated
+AMTT-SR-006,Y,Figure 6,target_method,theft,Manufacturing Process,AM Equipment Analysis: Cyber,achievable,not_stated
+AMTT-SR-007,Y,Figure 6,target_method,theft,Manufacturing Process,AM Equipment Analysis: Physical,partly_conditionally_achievable,not_stated
+AMTT-SR-008,Y,Figure 6,target_method,theft,Manufacturing Process,Protection Removal,partly_conditionally_achievable,not_stated
+AMTT-SR-009,Y,Figure 6,target_method,theft,Post-Processing,Theft,achievable,not_stated
+AMTT-SR-010,Y,Figure 6,target_method,theft,Post-Processing,Reverse Engineering,partly_conditionally_achievable,not_stated
+AMTT-SR-011,Y,Figure 6,target_method,theft,Post-Processing,AM Equipment Analysis: Cyber,achievable,not_stated
+AMTT-SR-012,Y,Figure 6,target_method,theft,Post-Processing,AM Equipment Analysis: Physical,partly_conditionally_achievable,not_stated
+AMTT-SR-013,Y,Figure 6,target_method,theft,Post-Processing,Protection Removal,partly_conditionally_achievable,not_stated
+AMTT-SR-014,Y,Figure 6,target_method,theft,Manufacturing Methodology,Theft,achievable,not_stated
+AMTT-SR-015,Y,Figure 6,target_method,theft,Manufacturing Methodology,Reverse Engineering,partly_conditionally_achievable,not_stated
+AMTT-SR-016,Y,Figure 6,target_method,theft,Manufacturing Methodology,AM Equipment Analysis: Cyber,partly_conditionally_achievable,not_stated
+AMTT-SR-017,Y,Figure 8,target_method,sabotage,Manufactured Object,3D Object Specification,achievable,not_stated
+AMTT-SR-018,Y,Figure 8,target_method,sabotage,Manufactured Object,Supply Chain Attack,achievable,not_stated
+AMTT-SR-019,Y,Figure 8,target_method,sabotage,Manufactured Object,Manufacturing Process,achievable,not_stated
+AMTT-SR-020,Y,Figure 8,target_method,sabotage,Manufactured Object,Post-Processing,achievable,not_stated
+AMTT-SR-021,Y,Figure 8,target_method,sabotage,Manufactured Object,Compromised Equipment,achievable,not_stated
+AMTT-SR-022,Y,Figure 8,target_method,sabotage,AM Equipment,Supply Chain Attack,partly_conditionally_achievable,not_stated
+AMTT-SR-023,Y,Figure 8,target_method,sabotage,AM Equipment,Manufacturing Process,partly_conditionally_achievable,not_stated
+AMTT-SR-024,Y,Figure 8,target_method,sabotage,AM Equipment,Post-Processing,partly_conditionally_achievable,not_stated
+AMTT-SR-025,Y,Figure 8,target_method,sabotage,AM Equipment,Compromised Equipment,achievable,not_stated
+AMTT-SR-026,Y,Figure 8,target_method,sabotage,Environment: AM Equipment,Supply Chain Attack,partly_conditionally_achievable,not_stated
+AMTT-SR-027,Y,Figure 8,target_method,sabotage,Environment: AM Equipment,Manufacturing Process,partly_conditionally_achievable,not_stated
+AMTT-SR-028,Y,Figure 8,target_method,sabotage,Environment: AM Equipment,Post-Processing,partly_conditionally_achievable,not_stated
+AMTT-SR-029,Y,Figure 8,target_method,sabotage,Environment: AM Equipment,Compromised Equipment,achievable,not_stated
+AMTT-SR-030,Y,Figure 8,target_method,sabotage,Environment: Manufactured Part,3D Object Specification,achievable,not_stated
+AMTT-SR-031,Y,Figure 8,target_method,sabotage,Environment: Manufactured Part,Supply Chain Attack,partly_conditionally_achievable,not_stated
+AMTT-SR-032,Y,Figure 8,target_method,sabotage,Environment: Manufactured Part,Compromised 3D Object,achievable,not_stated
+AMTT-SR-033,K,Figure 3,goal_target,,Intellectual Property Compromise,3D Design and Part Specifications,not_stated,not_applicable
+AMTT-SR-034,K,Figure 3,goal_target,,Intellectual Property Compromise,AM Process,not_stated,not_applicable
+AMTT-SR-035,K,Figure 3,goal_target,,Intellectual Property Compromise,Post Processing Stage,not_stated,not_applicable
+AMTT-SR-036,K,Figure 3,goal_target,,Intellectual Property Compromise,Indirect Manufacturing dependencies,not_stated,not_applicable
+AMTT-SR-037,K,Figure 3,goal_target,,Unauthorised Part Production,Intellectual Property Right,not_stated,not_applicable
+AMTT-SR-038,K,Figure 3,goal_target,,Unauthorised Part Production,Unauthorised Overproduction,not_stated,not_applicable
+AMTT-SR-039,K,Figure 3,goal_target,,Unauthorised Part Production,Export-Controlled Parts,not_stated,not_applicable
+AMTT-SR-040,K,Figure 3,goal_target,,Unauthorised Part Production,Internally Restricted parts,not_stated,not_applicable
+AMTT-SR-041,K,Figure 3,goal_target,,Data Breach and Manipulation,CAD Model Integrity,not_stated,not_applicable
+AMTT-SR-042,K,Figure 3,goal_target,,Data Breach and Manipulation,STL file Integrity,not_stated,not_applicable
+AMTT-SR-043,K,Figure 3,goal_target,,Data Breach and Manipulation,Tool-Path Execution,not_stated,not_applicable
+AMTT-SR-044,K,Figure 3,goal_target,,Sabotage,Final Manufactured Part,not_stated,not_applicable
+AMTT-SR-045,K,Figure 3,goal_target,,Sabotage,AM Equipment,not_stated,not_applicable
+AMTT-SR-046,K,Figure 3,goal_target,,Denial of Service,AM Production Environment,not_stated,not_applicable
+AMTT-SR-047,K,Figure 3,target_method,,3D Design and Part Specifications,Reverse Engineering of AM Design,not_stated,direct
+AMTT-SR-048,K,Figure 3,target_method,,3D Design and Part Specifications,Cyber Intrusion on AM Equipment,not_stated,direct
+AMTT-SR-049,K,Figure 3,target_method,,3D Design and Part Specifications,Intellectual Property Theft,not_stated,direct
+AMTT-SR-050,K,Figure 3,target_method,,AM Process,Cyber Intrusion on AM Equipment,not_stated,direct
+AMTT-SR-051,K,Figure 3,target_method,,AM Process,Tempering with Part Specification,not_stated,direct
+AMTT-SR-052,K,Figure 3,target_method,,Post Processing Stage,Physical Sabotage on AM Equipment,not_stated,direct
+AMTT-SR-053,K,Figure 3,target_method,,Post Processing Stage,Corrupting AM Process Parameters,not_stated,direct
+AMTT-SR-054,K,Figure 3,target_method,,Post Processing Stage,Tempering with Post-processing Proc.,not_stated,direct
+AMTT-SR-055,K,Figure 3,target_method,,Indirect Manufacturing dependencies,Manipulating 3D Equipment,not_stated,direct
+AMTT-SR-056,K,Figure 3,target_method,,Intellectual Property Right,Intellectual Property Theft,not_stated,direct
+AMTT-SR-057,K,Figure 3,target_method,,Intellectual Property Right,Counterfeiting Part Protection,not_stated,direct
+AMTT-SR-058,K,Figure 3,target_method,,Unauthorised Overproduction,Counterfeiting Part Protection,not_stated,direct
+AMTT-SR-059,K,Figure 3,target_method,,Unauthorised Overproduction,Exploitation of Supply Chain Weakness,not_stated,direct
+AMTT-SR-060,K,Figure 3,target_method,,Export-Controlled Parts,Counterfeiting Part Protection,not_stated,direct
+AMTT-SR-061,K,Figure 3,target_method,,Export-Controlled Parts,Disrupting AM Supply Chain Logistics,not_stated,direct
+AMTT-SR-062,K,Figure 3,target_method,,Internally Restricted parts,Counterfeiting Part Protection,not_stated,direct
+AMTT-SR-063,K,Figure 3,target_method,,Internally Restricted parts,Disrupting AM Supply Chain Logistics,not_stated,direct
+AMTT-SR-064,K,Figure 3,target_method,,CAD Model Integrity,Reverse Engineering of AM Design,not_stated,direct
+AMTT-SR-065,K,Figure 3,target_method,,CAD Model Integrity,Cyber Intrusion on AM Equipment,not_stated,direct
+AMTT-SR-066,K,Figure 3,target_method,,CAD Model Integrity,Exploitation of Supply Chain Weakness,not_stated,direct
+AMTT-SR-067,K,Figure 3,target_method,,STL file Integrity,Reverse Engineering of AM Design,not_stated,direct
+AMTT-SR-068,K,Figure 3,target_method,,STL file Integrity,Cyber Intrusion on AM Equipment,not_stated,direct
+AMTT-SR-069,K,Figure 3,target_method,,STL file Integrity,Exploitation of Supply Chain Weakness,not_stated,direct
+AMTT-SR-070,K,Figure 3,target_method,,Tool-Path Execution,Cyber Intrusion on AM Equipment,not_stated,direct
+AMTT-SR-071,K,Figure 3,target_method,,Tool-Path Execution,Tempering with Part Specification,not_stated,direct
+AMTT-SR-072,K,Figure 3,target_method,,Tool-Path Execution,Compromising 3D-Printed Parts,not_stated,direct
+AMTT-SR-073,K,Figure 3,target_method,,Final Manufactured Part,Counterfeiting Part Protection,not_stated,direct
+AMTT-SR-074,K,Figure 3,target_method,,Final Manufactured Part,Compromising 3D-Printed Parts,not_stated,direct
+AMTT-SR-075,K,Figure 3,target_method,,AM Equipment,Cyber Intrusion on AM Equipment,not_stated,direct
+AMTT-SR-076,K,Figure 3,target_method,,AM Equipment,Physical Sabotage on AM Equipment,not_stated,direct
+AMTT-SR-077,K,Figure 3,target_method,,AM Equipment,Bypassing Digital and Physical Protection,not_stated,direct
+AMTT-SR-078,K,Figure 3,target_method,,AM Production Environment,Physical Sabotage on AM Equipment,not_stated,direct
+AMTT-SR-079,K,Figure 3,target_method,,AM Production Environment,Exploitation Economic & Market Instability,not_stated,direct

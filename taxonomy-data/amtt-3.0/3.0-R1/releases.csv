@@ -1,0 +1,5 @@
+release_id,display_version,release_status,source_key,source,doi_or_url,edition_used,sha256
+AMTT-REL-001,3.0-R1,published,Y,"Yampolskiy et al. (2018), Security of additive manufacturing: Attack taxonomy and survey, Additive Manufacturing 21, 431-457",https://doi.org/10.1016/j.addma.2018.03.015,"Author manuscript of the version of record, 71 pages",b040b3659ca2c2f1f43cd140a3989821d2c54bcd336ce69a140ab7f9063347e9
+AMTT-REL-001,3.0-R1,published,K,"Kumar, Epiphaniou and Maple (2025), Security of cyber-physical Additive Manufacturing supply chain: Survey, attack taxonomy and solutions, Computers & Security 157, 104557",https://doi.org/10.1016/j.cose.2025.104557,"Published article, 23 pages",d21fb89bb8120b9b8e39e1ff5937fa6ec7402c8c0ad8794b603d72b5296c256a
+AMTT-REL-001,3.0-R1,published,CRA,Regulation (EU) 2024/2847 (Cyber Resilience Act),https://eur-lex.europa.eu/eli/reg/2024/2847/oj,"Official Journal, 20.11.2024",
+AMTT-REL-001,3.0-R1,published,ATTACK,MITRE ATT&CK Enterprise and ICS mitigations,https://attack.mitre.org/mitigations/,"v19, accessed 2026-05-01",
