@@ -5,7 +5,7 @@ type: dataset
 version: "3.0-R1"
 date-released: "2026-11-12"
 license: CC-BY-4.0
-repository-code: "https://github.com/Daniea1/CRA-AM-threat-taxonomy"
+repository-code: "https://github.com/Sagaw22/CRA-AM-threat-taxonomy"
 authors:
   - family-names: Gawad
     given-names: Sami
